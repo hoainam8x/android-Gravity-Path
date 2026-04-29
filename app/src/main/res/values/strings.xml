@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duna&#39;s Gravity</string>
+    <string name="admob_app_id">ca-app-pub-5115828862032559~1080516094</string>
+
+    <string name="home_tagline">Guide the ball · Explore the universe</string>
+    <string name="home_play">Start</string>
+    <string name="home_continue">Continue</string>
+    <string name="home_worldmap">World Map</string>
+    <string name="home_progress">Progress: Level</string>
+
+    <string name="hud_level">Level</string>
+    <string name="hud_best">Best</string>
+    <string name="hud_moves">Moves</string>
+    <string name="hud_tap_release">Tap ball to release</string>
+
+    <string name="game_glass_shatter">Glass shattered!</string>
+    <string name="game_status_idle">Idle</string>
+    <string name="game_status_running">Running</string>
+    <string name="game_status_goal">Goal reached</string>
+    <string name="game_status_crash">Crashed</string>
+    <string name="game_status_glass_shattered">Glass shattered</string>
+    <string name="game_ball_position">Ball: (%1$.1f, %2$.1f)</string>
+
+    <string name="win_title">Excellent!</string>
+    <string name="win_subtitle">completed</string>
+    <string name="win_next">Next Level</string>
+    <string name="win_again">Play Again</string>
+    <string name="win_record">🏅 New Record!</string>
+    <string name="win_score">Score</string>
+    <string name="win_time">Time</string>
+    <string name="win_steps">Steps</string>
+
+    <string name="skin_title">💎 Ball Skins</string>
+    <string name="skin_active">✓ Active</string>
+    <string name="skin_daily">Daily Mission</string>
+
+    <string name="map_title">🗺️ World Map</string>
+    <string name="map_explore">Explore</string>
+    <string name="map_zones">zones</string>
+    <string name="map_level">Level</string>
+    <string name="map_completed">Completed</string>
+    <string name="map_locked">Locked</string>
+    <string name="map_enter">Enter</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_restart">Restart</string>
+</resources>

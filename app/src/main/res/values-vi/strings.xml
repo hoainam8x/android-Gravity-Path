@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duna&#39;s Gravity</string>
+
+    <string name="home_tagline">Dẫn bi về đích · Khám phá vũ trụ</string>
+    <string name="home_play">Bắt đầu</string>
+    <string name="home_continue">Tiếp tục chơi</string>
+    <string name="home_worldmap">Bản đồ thế giới</string>
+    <string name="home_progress">Tiến độ: Màn</string>
+
+    <string name="hud_level">Màn</string>
+    <string name="hud_best">Kỷ lục</string>
+    <string name="hud_moves">Bước</string>
+    <string name="hud_tap_release">Chạm bi để thả</string>
+
+    <string name="game_glass_shatter">Kính vỡ!</string>
+    <string name="game_status_idle">Sẵn sàng</string>
+    <string name="game_status_running">Đang chạy</string>
+    <string name="game_status_goal">Đã vào đích</string>
+    <string name="game_status_crash">Đã vỡ</string>
+    <string name="game_status_glass_shattered">Kính đã vỡ</string>
+    <string name="game_ball_position">Bi: (%1$.1f, %2$.1f)</string>
+
+    <string name="win_title">Xuất Sắc!</string>
+    <string name="win_subtitle">hoàn thành</string>
+    <string name="win_next">Màn tiếp theo</string>
+    <string name="win_again">Chơi lại</string>
+    <string name="win_record">🏅 Kỷ lục mới!</string>
+    <string name="win_score">Điểm</string>
+    <string name="win_time">Thời gian</string>
+    <string name="win_steps">Bước</string>
+
+    <string name="skin_title">💎 Skin viên bi</string>
+    <string name="skin_active">✓ Đang dùng</string>
+    <string name="skin_daily">Nhiệm vụ hàng ngày</string>
+
+    <string name="map_title">🗺️ Bản Đồ Thế Giới</string>
+    <string name="map_explore">Khám phá</string>
+    <string name="map_zones">vùng</string>
+    <string name="map_level">Màn</string>
+    <string name="map_completed">Hoàn thành</string>
+    <string name="map_locked">Đã khoá</string>
+    <string name="map_enter">Vào</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_restart">Chơi lại</string>
+</resources>

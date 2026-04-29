@@ -1,0 +1,338 @@
+{
+  "designWidth": 390,
+  "designHeight": 844,
+  "defaultBallRadius": 14,
+  "defaultGoalRadius": 28,
+  "levels": [
+    {
+      "id": 1, "name": "First Path", "stage": "tutorial",
+      "ball": [195, 750], "goal": [320, 110],
+      "barriers": [
+        {"pos": [195, 500], "len": 220, "rot": -0.35, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 2, "name": "Twin Rails", "stage": "tutorial",
+      "ball": [195, 760], "goal": [70, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 200, "rot": 0.32, "mat": "wood"},
+        {"pos": [110, 370], "len": 180, "rot": 0.32, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 3, "name": "S Curve", "stage": "tutorial",
+      "ball": [195, 770], "goal": [300, 110],
+      "barriers": [
+        {"pos": [195, 620], "len": 190, "rot": -0.28, "mat": "wood"},
+        {"pos": [280, 450], "len": 180, "rot": 0.28, "mat": "wood"},
+        {"pos": [195, 280], "len": 180, "rot": -0.26, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 4, "name": "Corner Cut", "stage": "tutorial",
+      "ball": [120, 740], "goal": [310, 110],
+      "barriers": [
+        {"pos": [120, 560], "len": 180, "rot": -0.42, "mat": "wood"},
+        {"pos": [250, 360], "len": 180, "rot": -0.30, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 5, "name": "Zig Zag", "stage": "tutorial",
+      "ball": [195, 760], "goal": [300, 100],
+      "barriers": [
+        {"pos": [195, 620], "len": 190, "rot": 0.30, "mat": "wood"},
+        {"pos": [110, 450], "len": 180, "rot": -0.34, "mat": "wood"},
+        {"pos": [220, 280], "len": 180, "rot": -0.26, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 6, "name": "Gate", "stage": "tutorial",
+      "ball": [195, 740], "goal": [195, 110],
+      "barriers": [
+        {"pos": [110, 490], "len": 180, "rot": -0.45, "mat": "wood"},
+        {"pos": [280, 490], "len": 180, "rot": 0.45, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 7, "name": "Slide", "stage": "tutorial",
+      "ball": [90, 760], "goal": [320, 110],
+      "barriers": [
+        {"pos": [130, 580], "len": 230, "rot": -0.20, "mat": "wood"},
+        {"pos": [260, 340], "len": 220, "rot": -0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 8, "name": "Narrow Drop", "stage": "tutorial",
+      "ball": [195, 750], "goal": [195, 110],
+      "barriers": [
+        {"pos": [195, 560], "len": 210, "rot": -0.20, "mat": "wood"},
+        {"pos": [300, 380], "len": 140, "rot": 0.32, "mat": "wood"},
+        {"pos": [195, 240], "len": 180, "rot": -0.12, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 9, "name": "Cascade", "stage": "tutorial",
+      "ball": [150, 770], "goal": [310, 100],
+      "barriers": [
+        {"pos": [150, 630], "len": 180, "rot": -0.30, "mat": "wood"},
+        {"pos": [270, 460], "len": 180, "rot": 0.30, "mat": "wood"},
+        {"pos": [180, 280], "len": 180, "rot": -0.26, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 10, "name": "Gentle Flow", "stage": "tutorial",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 560], "len": 230, "rot": -0.15, "mat": "wood"},
+        {"pos": [260, 330], "len": 220, "rot": -0.12, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 11, "name": "Split", "stage": "tutorial",
+      "ball": [195, 760], "goal": [280, 100],
+      "barriers": [
+        {"pos": [195, 600], "len": 200, "rot": -0.25, "mat": "wood"},
+        {"pos": [120, 420], "len": 150, "rot": 0.32, "mat": "wood"},
+        {"pos": [270, 420], "len": 150, "rot": -0.32, "mat": "wood"},
+        {"pos": [230, 250], "len": 170, "rot": -0.20, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 12, "name": "Ladder", "stage": "tutorial",
+      "ball": [130, 770], "goal": [260, 100],
+      "barriers": [
+        {"pos": [140, 640], "len": 170, "rot": -0.20, "mat": "wood"},
+        {"pos": [240, 490], "len": 170, "rot": 0.20, "mat": "wood"},
+        {"pos": [140, 340], "len": 170, "rot": -0.20, "mat": "wood"},
+        {"pos": [240, 200], "len": 170, "rot": 0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 13, "name": "Angles", "stage": "tutorial",
+      "ball": [195, 750], "goal": [280, 100],
+      "barriers": [
+        {"pos": [195, 580], "len": 190, "rot": 0.42, "mat": "wood"},
+        {"pos": [110, 380], "len": 190, "rot": -0.42, "mat": "wood"},
+        {"pos": [230, 220], "len": 190, "rot": -0.24, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 14, "name": "Weave", "stage": "tutorial",
+      "ball": [160, 770], "goal": [290, 100],
+      "barriers": [
+        {"pos": [160, 620], "len": 170, "rot": -0.30, "mat": "wood"},
+        {"pos": [270, 460], "len": 170, "rot": 0.30, "mat": "wood"},
+        {"pos": [170, 300], "len": 170, "rot": -0.28, "mat": "wood"},
+        {"pos": [270, 170], "len": 170, "rot": 0.20, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 15, "name": "Master Wood", "stage": "tutorial",
+      "ball": [195, 770], "goal": [195, 100],
+      "barriers": [
+        {"pos": [195, 620], "len": 220, "rot": -0.18, "mat": "wood"},
+        {"pos": [250, 450], "len": 200, "rot": 0.22, "mat": "wood"},
+        {"pos": [140, 290], "len": 200, "rot": -0.22, "mat": "wood"},
+        {"pos": [195, 160], "len": 200, "rot": 0.10, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 16, "name": "Glass Run", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 230, "rot": -0.12, "mat": "glass"},
+        {"pos": [240, 400], "len": 240, "rot": 0.10, "mat": "wood"},
+        {"pos": [230, 230], "len": 200, "rot": -0.10, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 17, "name": "Slippery S", "stage": "materials",
+      "ball": [195, 760], "goal": [90, 110],
+      "barriers": [
+        {"pos": [195, 600], "len": 210, "rot": 0.14, "mat": "glass"},
+        {"pos": [130, 430], "len": 220, "rot": -0.14, "mat": "wood"},
+        {"pos": [180, 250], "len": 210, "rot": 0.16, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 18, "name": "Rubber Bounce", "stage": "materials",
+      "ball": [195, 760], "goal": [310, 100],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.25, "mat": "rubber"},
+        {"pos": [280, 420], "len": 190, "rot": 0.24, "mat": "rubber"},
+        {"pos": [205, 250], "len": 180, "rot": -0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 19, "name": "Glass + Wood", "stage": "materials",
+      "ball": [195, 750], "goal": [80, 100],
+      "barriers": [
+        {"pos": [195, 600], "len": 210, "rot": 0.20, "mat": "glass"},
+        {"pos": [100, 420], "len": 200, "rot": -0.18, "mat": "wood"},
+        {"pos": [200, 240], "len": 190, "rot": 0.20, "mat": "glass"}
+      ]
+    },
+    {
+      "id": 20, "name": "Rubber Corner", "stage": "materials",
+      "ball": [195, 760], "goal": [310, 100],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.36, "mat": "rubber"},
+        {"pos": [290, 410], "len": 190, "rot": 0.28, "mat": "rubber"},
+        {"pos": [210, 240], "len": 190, "rot": -0.20, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 21, "name": "Float Chamber", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 200, "rot": -0.25, "mat": "wood"},
+        {"pos": [280, 400], "len": 180, "rot": 0.22, "mat": "wood"}
+      ],
+      "zeroG": [{"rect": [40, 180, 310, 200]}],
+      "fans": [{"pos": [80, 260], "force": [3.0, 0]}]
+    },
+    {
+      "id": 22, "name": "Drift", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 200, "rot": -0.22, "mat": "glass"},
+        {"pos": [280, 400], "len": 180, "rot": 0.22, "mat": "glass"}
+      ],
+      "zeroG": [{"rect": [30, 180, 330, 220]}],
+      "fans": [{"pos": [80, 290], "force": [3.0, -0.5]}]
+    },
+    {
+      "id": 23, "name": "Rubber Lift", "stage": "materials",
+      "ball": [195, 760], "goal": [310, 100],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.24, "mat": "rubber"},
+        {"pos": [285, 415], "len": 190, "rot": 0.24, "mat": "rubber"},
+        {"pos": [210, 245], "len": 190, "rot": -0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 24, "name": "Glass Valley", "stage": "materials",
+      "ball": [195, 760], "goal": [80, 100],
+      "barriers": [
+        {"pos": [195, 600], "len": 210, "rot": 0.26, "mat": "glass"},
+        {"pos": [100, 420], "len": 200, "rot": -0.26, "mat": "glass"},
+        {"pos": [200, 240], "len": 190, "rot": 0.22, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 25, "name": "Zero Loop", "stage": "materials",
+      "ball": [195, 760], "goal": [300, 110],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.22, "mat": "wood"},
+        {"pos": [280, 410], "len": 180, "rot": 0.22, "mat": "wood"}
+      ],
+      "zeroG": [{"rect": [40, 180, 310, 220]}],
+      "fans": [
+        {"pos": [80, 290], "force": [3.0, 0]},
+        {"pos": [310, 250], "force": [-1.5, 1.2]}
+      ]
+    },
+    {
+      "id": 26, "name": "Mixed Step", "stage": "materials",
+      "ball": [195, 770], "goal": [290, 100],
+      "barriers": [
+        {"pos": [195, 620], "len": 200, "rot": -0.22, "mat": "glass"},
+        {"pos": [280, 450], "len": 190, "rot": 0.22, "mat": "rubber"},
+        {"pos": [200, 280], "len": 180, "rot": -0.20, "mat": "wood"},
+        {"pos": [280, 150], "len": 170, "rot": 0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 27, "name": "Fan Lane", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 200, "rot": -0.22, "mat": "wood"},
+        {"pos": [275, 400], "len": 185, "rot": 0.20, "mat": "wood"}
+      ],
+      "zeroG": [{"rect": [30, 180, 330, 230]}],
+      "fans": [{"pos": [80, 300], "force": [3.5, -1.0]}]
+    },
+    {
+      "id": 28, "name": "Glass Hop", "stage": "materials",
+      "ball": [160, 770], "goal": [290, 100],
+      "barriers": [
+        {"pos": [160, 620], "len": 190, "rot": -0.28, "mat": "glass"},
+        {"pos": [260, 445], "len": 180, "rot": 0.26, "mat": "glass"},
+        {"pos": [180, 275], "len": 180, "rot": -0.22, "mat": "rubber"},
+        {"pos": [260, 150], "len": 170, "rot": 0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 29, "name": "Soft Wall", "stage": "materials",
+      "ball": [195, 760], "goal": [300, 100],
+      "barriers": [
+        {"pos": [195, 590], "len": 210, "rot": -0.22, "mat": "rubber"},
+        {"pos": [280, 420], "len": 200, "rot": 0.22, "mat": "rubber"},
+        {"pos": [205, 250], "len": 190, "rot": -0.18, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 30, "name": "Aloft", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 200, "rot": -0.22, "mat": "glass"},
+        {"pos": [275, 400], "len": 185, "rot": 0.22, "mat": "glass"}
+      ],
+      "zeroG": [{"rect": [30, 180, 330, 230]}],
+      "fans": [
+        {"pos": [80, 300], "force": [3.0, -1.0]},
+        {"pos": [310, 280], "force": [-1.2, 0.8]}
+      ]
+    },
+    {
+      "id": 31, "name": "Trio Glass", "stage": "materials",
+      "ball": [195, 770], "goal": [280, 100],
+      "barriers": [
+        {"pos": [195, 620], "len": 200, "rot": 0.26, "mat": "glass"},
+        {"pos": [110, 450], "len": 190, "rot": -0.28, "mat": "glass"},
+        {"pos": [205, 280], "len": 190, "rot": 0.20, "mat": "wood"},
+        {"pos": [290, 150], "len": 170, "rot": -0.12, "mat": "wood"}
+      ]
+    },
+    {
+      "id": 32, "name": "Bounce Hall", "stage": "materials",
+      "ball": [195, 760], "goal": [310, 100],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.20, "mat": "rubber"},
+        {"pos": [110, 420], "len": 190, "rot": 0.40, "mat": "rubber"},
+        {"pos": [215, 250], "len": 190, "rot": -0.34, "mat": "rubber"}
+      ]
+    },
+    {
+      "id": 33, "name": "Glass Drift 2", "stage": "materials",
+      "ball": [195, 750], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 580], "len": 205, "rot": -0.22, "mat": "glass"},
+        {"pos": [280, 400], "len": 195, "rot": 0.22, "mat": "glass"}
+      ],
+      "zeroG": [{"rect": [30, 180, 330, 220]}],
+      "fans": [{"pos": [80, 300], "force": [3.0, -0.8]}]
+    },
+    {
+      "id": 34, "name": "Rubber + Float", "stage": "materials",
+      "ball": [195, 760], "goal": [310, 110],
+      "barriers": [
+        {"pos": [195, 590], "len": 200, "rot": -0.22, "mat": "rubber"},
+        {"pos": [280, 410], "len": 190, "rot": 0.22, "mat": "rubber"}
+      ],
+      "zeroG": [{"rect": [30, 180, 330, 230]}],
+      "fans": [{"pos": [80, 300], "force": [3.2, -1.2]}]
+    },
+    {
+      "id": 35, "name": "Master Mix", "stage": "materials",
+      "ball": [195, 770], "goal": [290, 100],
+      "barriers": [
+        {"pos": [195, 620], "len": 200, "rot": -0.22, "mat": "glass"},
+        {"pos": [275, 455], "len": 190, "rot": 0.22, "mat": "rubber"},
+        {"pos": [195, 300], "len": 180, "rot": -0.18, "mat": "wood"}
+      ],
+      "zeroG": [{"rect": [30, 160, 330, 170]}],
+      "fans": [{"pos": [80, 240], "force": [3.0, -1.0]}]
+    }
+  ]
+}
