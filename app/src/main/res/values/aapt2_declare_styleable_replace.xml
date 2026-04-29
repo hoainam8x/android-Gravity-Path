@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="FontFamily" tools:node="replace">
+        <attr format="string" name="fontProviderAuthority" />
+        <attr format="string" name="fontProviderPackage" />
+        <attr format="string" name="fontProviderQuery" />
+        <attr format="string" name="fontProviderFallbackQuery" />
+        <attr format="reference" name="fontProviderCerts" />
+        <attr name="fontProviderFetchStrategy">
+            <enum name="blocking" value="0" />
+            <enum name="async" value="1" />
+        </attr>
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <enum name="forever" value="-1" />
+        </attr>
+        <attr format="string" name="fontProviderSystemFontFamily" />
+    </declare-styleable>
+
+    <declare-styleable name="AdsAttrs" tools:node="replace">
+        <attr format="string" name="adSize" />
+        <attr format="string" name="adSizes" />
+        <attr format="string" name="adUnitId" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingImageView" tools:node="replace">
+        <attr name="imageAspectRatioAdjust">
+            <enum name="none" value="0" />
+            <enum name="adjust_width" value="1" />
+            <enum name="adjust_height" value="2" />
+        </attr>
+        <attr format="float" name="imageAspectRatio" />
+        <attr format="boolean" name="circleCrop" />
+    </declare-styleable>
+
+    <declare-styleable name="SignInButton" tools:node="replace">
+        <attr format="reference" name="buttonSize">
+            <enum name="standard" value="0" />
+            <enum name="wide" value="1" />
+            <enum name="icon_only" value="2" />
+        </attr>
+        <attr format="reference" name="colorScheme">
+            <enum name="dark" value="0" />
+            <enum name="light" value="1" />
+            <enum name="auto" value="2" />
+        </attr>
+        <attr format="reference|string" name="scopeUris" />
+    </declare-styleable>
+
+    <style name="Theme.IAPTheme" parent="android:Theme" tools:node="replace">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
