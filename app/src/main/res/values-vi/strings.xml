@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Duna&#39;s Gravity</string>
+    <string name="app_name">Duna\u0027s Gravity</string>
 
     <string name="home_tagline">Dẫn bi về đích · Khám phá vũ trụ</string>
     <string name="home_play">Bắt đầu</string>
@@ -25,16 +25,16 @@
     <string name="win_subtitle">hoàn thành</string>
     <string name="win_next">Màn tiếp theo</string>
     <string name="win_again">Chơi lại</string>
-    <string name="win_record">🏅 Kỷ lục mới!</string>
+    <string name="win_record">&#x1F3C5; Kỷ lục mới!</string>
     <string name="win_score">Điểm</string>
     <string name="win_time">Thời gian</string>
     <string name="win_steps">Bước</string>
 
-    <string name="skin_title">💎 Skin viên bi</string>
-    <string name="skin_active">✓ Đang dùng</string>
+    <string name="skin_title">&#x1F48E; Skin viên bi</string>
+    <string name="skin_active">&#x2713; Đang dùng</string>
     <string name="skin_daily">Nhiệm vụ hàng ngày</string>
 
-    <string name="map_title">🗺️ Bản Đồ Thế Giới</string>
+    <string name="map_title">&#x1F5FA;&#xFE0F; Bản Đồ Thế Giới</string>
     <string name="map_explore">Khám phá</string>
     <string name="map_zones">vùng</string>
     <string name="map_level">Màn</string>

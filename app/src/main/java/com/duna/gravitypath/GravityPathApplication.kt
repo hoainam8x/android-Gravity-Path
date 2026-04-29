@@ -3,6 +3,7 @@ package com.duna.gravitypath
 import android.app.Application
 import com.duna.gravitypath.di.AppContainer
 import com.google.android.gms.ads.MobileAds
+import java.util.concurrent.Executors
 
 class GravityPathApplication : Application() {
     lateinit var appContainer: AppContainer
@@ -11,6 +12,8 @@ class GravityPathApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         appContainer = AppContainer(this)
-        MobileAds.initialize(this)
+        Executors.newSingleThreadExecutor().execute {
+            MobileAds.initialize(this@GravityPathApplication) {}
+        }
     }
 }
